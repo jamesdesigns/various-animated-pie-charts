@@ -11,4 +11,8 @@ section {
   margin: 15px;
 }
 
-p { text-align: center;}
+p { 
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
