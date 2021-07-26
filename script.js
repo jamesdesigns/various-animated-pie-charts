@@ -27,7 +27,7 @@
       };
 
 var obj2 = {
-      values: [10, 30, 20, 5, 45],
+      values: [10, 30, 20, 15, 35],
       colors: ['#133b5e', '#2168a6', '#2d95ec', '#6cb3f1', '#acd4f7'],
       animation: true,
       animationSpeed: 5,
