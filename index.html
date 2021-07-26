@@ -28,6 +28,7 @@
       </div>	
       <p>Chart 2</p>
     </div>
+
     <!-- 3 Chart -->    
     <!-- <div class="false-For-Bottom-Text">
       <div class="mypiechart">	
@@ -35,17 +36,18 @@
       </div>
       <p>Chart 3</p>
     </div> -->
+    
     <!-- 3 Chart -->   
     <div class="false-For-Bottom-Text">	
       <div class="mypiechart">	
-        <canvas id="myCanvas6" width="300" height="300"></canvas>
+        <canvas id="myCanvas3" width="300" height="300"></canvas>
       </div>
       <p>Chart 3</p>
     </div>
     <!-- 4 Chart -->    
     <div class="false-For-Bottom-Text">	
       <div class="mypiechart">	
-        <canvas id="myCanvas8" width="300" height="300"></canvas>			
+        <canvas id="myCanvas4" width="300" height="300"></canvas>			
       </div>
       <p>Chart 4</p>
     </div>
@@ -55,7 +57,7 @@
 		
 		var obj = {
 						values: [15, 50, 20, 85, 30],
-						colors: ['#003f5c', '#58508d', '#bc5090', '#ff6361', '#ffa600'],
+						colors: ['#133b5e', '#2168a6', '#2d95ec', '#6cb3f1', '#acd4f7'],
 						animation: true, // Takes boolean value & default behavious is false
 						animationSpeed: 1, // Time in miliisecond & default animation speed is 20ms
 						fillTextData: true, // Takes boolean value & text is not generate by default 
@@ -82,7 +84,7 @@
 		
 		var obj2 = {
 						values: [15, 50, 20, 85, 30],
-						colors: ['#003f5c', '#58508d', '#bc5090', '#ff6361', '#ffa600'],
+						colors: ['#133b5e', '#2168a6', '#2d95ec', '#6cb3f1', '#acd4f7'],
 						animation: true,
 						animationSpeed: 5,
 						fillTextData: true,
@@ -94,20 +96,7 @@
 						offset: 1
 					  };
 		
-		// var obj3 = {
-		// 				values: [15, 50, 20, 85, 30],
-		// 				colors: ['#003f5c', '#58508d', '#bc5090', '#ff6361', '#ffa600'],
-		// 				animation: true,
-    //         animationSpeed: 5,
-		// 				fillTextData: true,
-		// 				fillTextColor: '#fff',
-		// 				fillTextPosition: 'horizontal',
-		// 				doughnutHoleSize: null,
-		// 				doughnutHoleColor: '#fff',
-		// 				offset: null
-		// 			  };
-		
-		var obj6 = {
+		var obj3 = {
 						pie: 'stroke',
 						values: [85],
 						colors: ['#E91E63'],
@@ -123,7 +112,7 @@
 						}
 					  };
 		
-		var obj8 = {
+		var obj4 = {
 						pie: 'stroke',
 						values: [75],
 						colors: ['#E91E63'],
@@ -147,14 +136,11 @@
 		//Generate myCanvas2
 		generatePieGraph('myCanvas2', obj2);
 		
-		//Generate myCanvas3
-		// generatePieGraph('myCanvas3', obj3);
-		
 		//Generate myCanvas6
-		generatePieGraph('myCanvas6', obj6);
+		generatePieGraph('myCanvas3', obj3); 
 		
 		//Generate myCanvas8
-		generatePieGraph('myCanvas8', obj8);	
+		generatePieGraph('myCanvas4', obj4);	
 	</script>
 
 </body>
