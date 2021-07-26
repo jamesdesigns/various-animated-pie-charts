@@ -2,4 +2,13 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
 }
+
+.false-For-Bottom-Text {
+  margin: 15px;
+}
+
+p { text-align: center;}
