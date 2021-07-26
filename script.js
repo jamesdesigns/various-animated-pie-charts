@@ -27,7 +27,7 @@
       };
 
 var obj2 = {
-      values: [15, 50, 20, 85, 30],
+      values: [10, 30, 20, 5, 45],
       colors: ['#133b5e', '#2168a6', '#2d95ec', '#6cb3f1', '#acd4f7'],
       animation: true,
       animationSpeed: 5,
@@ -80,8 +80,8 @@ generatePieGraph('myCanvas', obj);
 //Generate myCanvas2
 generatePieGraph('myCanvas2', obj2);
 
-//Generate myCanvas6
+//Generate myCanvas3
 generatePieGraph('myCanvas3', obj3); 
 
-//Generate myCanvas8
+//Generate myCanvas4
 generatePieGraph('myCanvas4', obj4);	
