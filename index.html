@@ -40,19 +40,19 @@
       <p>Chart 4</p>
     </div>
   <!-- 5 Chart -->   
-    <div class="false-For-Bottom-Text">	
+    <!-- <div class="false-For-Bottom-Text">	
       <div class="mypiechart">	
         <canvas id="myCanvas4" width="300" height="300"></canvas>
       </div>
       <p>Chart 5</p>
-    </div>
+    </div> -->
     <!-- 6 Chart -->    
-    <div class="false-For-Bottom-Text">	
+    <!-- <div class="false-For-Bottom-Text">	
       <div class="mypiechart">	
         <canvas id="myCanvas5" width="300" height="300"></canvas>
       </div>
       <p>Chart 6</p>
-    </div>
+    </div> -->
     <!-- 7 Chart -->   
     <div class="false-For-Bottom-Text">	
       <div class="mypiechart">	
@@ -61,12 +61,12 @@
       <p>Chart 7</p>
     </div>
     <!-- 8 Chart -->   
-    <div class="false-For-Bottom-Text">	
+    <!-- <div class="false-For-Bottom-Text">	
       <div class="mypiechart">	
         <canvas id="myCanvas7" width="300" height="300"></canvas>			
       </div>
       <p>Chart 8</p>
-    </div>
+    </div> -->
     <!-- 9 Chart -->    
     <div class="false-For-Bottom-Text">	
       <div class="mypiechart">	
@@ -75,12 +75,12 @@
       <p>Chart 9</p>
     </div>
     <!-- 10 Chart -->   
-    <div class="false-For-Bottom-Text">	
+    <!-- <div class="false-For-Bottom-Text">	
       <div class="mypiechart">	
         <canvas id="myCanvas9" width="300" height="300"></canvas>
       </div>
       <p>Chart 10</p>
-    </div>
+    </div> -->
 </section>
 			
 	<script type="text/javascript">
@@ -130,7 +130,7 @@
 						values: [15, 50, 20, 85, 30],
 						colors: ['#003f5c', '#58508d', '#bc5090', '#ff6361', '#ffa600'],
 						animation: true,
-						animationSpeed: 30,
+						animationSpeed: 5,
 						fillTextData: true,
 						fillTextColor: '#fff',
 						fillTextAlign: 1.50, 
@@ -144,6 +144,7 @@
 						values: [15, 50, 20, 85, 30],
 						colors: ['#003f5c', '#58508d', '#bc5090', '#ff6361', '#ffa600'],
 						animation: true,
+            animationSpeed: 5,
 						fillTextData: true,
 						fillTextColor: '#fff',
 						fillTextPosition: 'horizontal',
@@ -152,26 +153,26 @@
 						offset: null
 					  };
 		
-		var obj4 = {
-						values: [15, 50, 20, 85, 30],
-						colors: ['#003f5c', '#58508d', '#bc5090', '#ff6361', '#ffa600'],
-						animation: true,
-						fillTextData: true,
-						fillTextColor: '#fff',
-						fillTextPosition: 'vertical',
-						doughnutHoleSize: null,
-						doughnutHoleColor: '#000',
-						offset: null
-					  };
+		// var obj4 = {
+		// 				values: [15, 50, 20, 85, 30],
+		// 				colors: ['#003f5c', '#58508d', '#bc5090', '#ff6361', '#ffa600'],
+		// 				animation: true,
+		// 				fillTextData: true,
+		// 				fillTextColor: '#fff',
+		// 				fillTextPosition: 'vertical',
+		// 				doughnutHoleSize: null,
+		// 				doughnutHoleColor: '#000',
+		// 				offset: null
+		// 			  };
 		
-		var obj5 = {
-						values: [15, 50, 20, 85, 30],
-						colors: ['#003f5c', '#58508d', '#bc5090', '#ff6361', '#ffa600'],
-						animation: true,
-						doughnutHoleSize: 80,
-						doughnutHoleColor: '#fff',
-						offset: 5
-					  };
+		// var obj5 = {
+		// 				values: [15, 50, 20, 85, 30],
+		// 				colors: ['#003f5c', '#58508d', '#bc5090', '#ff6361', '#ffa600'],
+		// 				animation: true,
+		// 				doughnutHoleSize: 80,
+		// 				doughnutHoleColor: '#fff',
+		// 				offset: 5
+		// 			  };
 		
 		var obj6 = {
 						pie: 'stroke',
@@ -181,7 +182,7 @@
 							stroke: 20,
 							strokeStartEndPoints: 'Yes',
 							strokeAnimation: true,
-							strokeAnimationSpeed: 30,
+							strokeAnimationSpeed: 20,
 							fontSize: '40px',
 							textAlignement: 'center',
 							fontFamily: 'Arial',
@@ -189,21 +190,21 @@
 						}
 					  };
 		
-		var obj7 = {
-						pie: 'stroke',
-						values: [65],
-						colors: ['#00BCD4'],
-						isStrokePie: {
-							stroke: 20,
-							strokeStartEndPoints: 'Yes',
-							strokeAnimation: false,
-							strokeAnimationSpeed: 20,
-							fontSize: '60px',
-							textAlignement: 'center',
-							fontFamily: 'Arial',
-							fontWeight: 'bold'
-						}
-					  };
+		// var obj7 = {
+		// 				pie: 'stroke',
+		// 				values: [65],
+		// 				colors: ['#00BCD4'],
+		// 				isStrokePie: {
+		// 					stroke: 20,
+		// 					strokeStartEndPoints: 'Yes',
+		// 					strokeAnimation: false,
+		// 					strokeAnimationSpeed: 20,
+		// 					fontSize: '60px',
+		// 					textAlignement: 'center',
+		// 					fontFamily: 'Arial',
+		// 					fontWeight: 'bold'
+		// 				}
+		// 			  };
 		
 		var obj8 = {
 						pie: 'stroke',
@@ -215,24 +216,6 @@
 							overlayStrokeColor: '#eee',
 							strokeStartEndPoints: 'Yes',
 							strokeAnimation: true,
-							strokeAnimationSpeed: 40,
-							fontSize: '60px',
-							textAlignement: 'center',
-							fontFamily: 'Arial',
-							fontWeight: 'bold'
-						}
-					  };
-		
-		var obj9 = {
-						pie: 'stroke',
-						values: [80],
-						colors: ['#FFC107'],
-						isStrokePie: {
-							stroke: 20,
-							overlayStroke: true,
-							overlayStrokeColor: '#eee',
-							strokeStartEndPoints: 'No',
-							strokeAnimation: false,
 							strokeAnimationSpeed: 20,
 							fontSize: '60px',
 							textAlignement: 'center',
@@ -240,6 +223,24 @@
 							fontWeight: 'bold'
 						}
 					  };
+		
+		// var obj9 = {
+		// 				pie: 'stroke',
+		// 				values: [80],
+		// 				colors: ['#FFC107'],
+		// 				isStrokePie: {
+		// 					stroke: 20,
+		// 					overlayStroke: true,
+		// 					overlayStrokeColor: '#eee',
+		// 					strokeStartEndPoints: 'No',
+		// 					strokeAnimation: false,
+		// 					strokeAnimationSpeed: 20,
+		// 					fontSize: '60px',
+		// 					textAlignement: 'center',
+		// 					fontFamily: 'Arial',
+		// 					fontWeight: 'bold'
+		// 				}
+		// 			  };
 		
 		//Generate myCanvas		
 		generatePieGraph('myCanvas', obj);
@@ -254,22 +255,22 @@
 		generatePieGraph('myCanvas3', obj3);
 		
 		//Generate myCanvas4
-		generatePieGraph('myCanvas4', obj4);
+		// generatePieGraph('myCanvas4', obj4);
 		
 		//Generate myCanvas5
-		generatePieGraph('myCanvas5', obj5);
+		// generatePieGraph('myCanvas5', obj5);
 		
 		//Generate myCanvas6
 		generatePieGraph('myCanvas6', obj6);
 		
 		//Generate myCanvas7
-		generatePieGraph('myCanvas7', obj7);
+		// generatePieGraph('myCanvas7', obj7);
 		
 		//Generate myCanvas8
 		generatePieGraph('myCanvas8', obj8);
 		
 		//Generate myCanvas9
-		generatePieGraph('myCanvas9', obj9);	
+		// generatePieGraph('myCanvas9', obj9);	
 		
 		
 		
